@@ -52,4 +52,18 @@ article img {
     margin-right: 1em;
     margin-bottom: 1em;
 }
-article p::
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
+}
+aside{
+    width: 20%
+    float: right;
+    background-color: #ffebc6;
+}
+footer{
+    clear:both;
+    border-
+}
