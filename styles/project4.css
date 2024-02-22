@@ -61,9 +61,13 @@ article p::first-letter {
 aside{
     width: 20%
     float: right;
-    background-color: #ffebc6;
+    background-color:#ffebc6;
 }
 footer{
     clear:both;
-    border-
+    border-top: 2px solid maroon;
+}
+footer p.copyright {
+    text-align: center;
+    font-size: 80%
 }
