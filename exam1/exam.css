@@ -1,7 +1,7 @@
 html {
-    background-Image: linear-gradient(to left, white 0%, lightblue 100%);
-}
-article{
+    background-image: linear-gradient(to left, white 0%, lightblue 100%)
+ }
+ article{
     clear: both;
     width: 75%;
     float: left;
@@ -9,80 +9,81 @@ article{
     column-rule: 2px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
-}
-
-article p::first-letter{
+ }
+ 
+ 
+ article p:first letter{
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
     color: black;
-
-}
-article h1{
+ 
+ }
+ article h1{
     column-span: all;
-}
-aside{
+ }
+ aside{
     width: 20%;
     float: right;
     background-color: lightblue;
     padding: 0.1em 1em 1em;
-    border: 2px solid blue;
+    border: 2px solid black;
     position: fixed;
     bottom: 35%;
     right: 0%;
-
-}
-aside ol{
-    list-style-type:upper-roman;
-}
-aside ul{
+ 
+ 
+ }
+ aside{
+    list-style-type: upper-roman;
+ }
+ aside{
     list-style-type: square;
-}
-article img{
+ }
+ aside img{
     float: left;
     margin-right: 1em;
-    margin-bottom: 1em;
-}
-#nav_menu ul { list-style-type: none;
+    margin-right: 1em;
  }
-#nav_menu ul li { float: left;
-    margin-bottom: 0.9em; }
-#nav_menu ul li a {
+ #nav_menu ul li { float: left;
+ margin-bottom: 0.9em; }
+ #nav_menu ul li a { float: left;
+ margin-bottom: 0.9em; }
+ #nav_menu ul li a { 
     text-align: center;
     display: block;
     width: 175px;
-    padding: 1em 0;      
+    padding: 1em 0;
     text-decoration: none;
     background-color: blue;
     color: white;
     font-weight: bold;
     border-right: 2px solid white; }
-#nav_menu ul li a.lastitem { border-right: none; }  
-#nav_menu ul li a.current { color: yellow; }
-footer{
+ #nav_menu ul li a.lastitem { border-right: none }
+ #nav_menu ul il a.current { color: yellow; }
+ footer{
     clear: both;
-    border-top: 2px solid blue;
+    border-top: 2px solid black;
     text-align: center;
-
-}
-main{
-    border-top: 2px solid blue;
+ 
+ }
+ main{
+    border-top: 1px solid black;
     clear: left;
-}
-body{
+ }
+ body{
     border: 1px solid black;
-     border-radius: 25px;
-     box-shadow: 5px 5px 0 0;
-     background-color: white;
-     width: 95%;
-     margin: 15px auto;
-     
-}
-h1{
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background-color: white;
+    width: 95%;
+    margin: 15px auto;
+ 
+ }
+ h1{ 
     color: blue;
-
-}
-h2{
+ 
+ }
+ h2{
     color: blue;
-}
-
+ }
