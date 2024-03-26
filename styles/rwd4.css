@@ -1,13 +1,12 @@
-html, body {
+html {
     margin: 0;
     height: 100%;
     font-size: 100%;
-    }
-    
-    * {
+}
+body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    }
+}
     
     /*---------------------------------------------------------------*/
     .top-nav {
